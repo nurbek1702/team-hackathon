@@ -1,0 +1,81 @@
+
+.card:hover {
+  background-color: rgb(139, 139, 143);
+  transform: scale(1.06);
+}
+.btnDelete:hover {
+  background-color: rgb(181, 182, 241);
+}
+.btnEdit:hover {
+  background-color: rgb(181, 182, 241);
+}
+.card {
+  transition: 0.5s;
+}
+.img-logo{
+    width: 40px;
+}
+.categoria{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+.cat{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.mapp{
+    color: yellowgreen;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+.by{
+    width: 15px;
+}
+.ul1{
+    font-size: 11px;
+}
+#prevBtn{
+    border: 1px;
+    border-radius: 30%;
+}
+#nextBtn{
+    border: 1px;
+    border-radius: 30%;
+}
+.img-log{
+    width: 27px;
+}
+#inpSearch{
+    background-color: rgb(209, 203, 203);
+}
+#btnCheckout{
+    border-radius: 40%;
+    color: white;
+}
+.shopping{
+    color: white;
+}
+.details {
+    display: none; /* Добавленный стиль, чтобы изначально скрыть .details */
+    height: auto;
+    width: auto;
+    /* max-width: auto; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
