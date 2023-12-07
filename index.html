@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <img
+          class="img-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
+          alt="logo"
+        />
+        <a class="navbar-brand" href="">APP-STORE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#" class="dropdown-item1">Phones</a></li>
+                <li><a href="#" class="dropdown-item2">Accessories</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Other products...</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex">
+            
+            <input
+              class="form-control me-2"
+              id="inpSearch"
+              type="search"
+              placeholder="search..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success text-light" type="button">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="cart" class="cart-container">
+        <div class="shop">
+          <a href="https://cdn-icons-png.flaticon.com/512/6644/6644359.png"></a>
+        </div>
+        <ul id="cart-items" class="list-group"></ul>
+        <button id="btnCheckout" class="btn btn-outline-success">Checkout</button>
+      </div>
+    </nav>
+    <!-- NAVBAR FINISH -->
+
+    <!-- ADD PANEL START -->
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            id="btnOpenForm"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Add Product +
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="accordionFlushExample"
+          class="accordion-collapse collapse"
+        >
+          <div class="accordion-body">
+            <input
+              type="text"
+              class="form-control me-2"
+              id="inpName"
+              placeholder="product name"
+              aria-label="Search"
+            />
+            <input
+              type="text"
+              class="form-control me-2"
+              aria-label="Search"
+              placeholder="memory"
+              id="inpMemory"
+            />
+            <input
+              type="text"
+              class="form-control me-2"
+              aria-label="Search"
+              id="inpImage"
+              placeholder="image"
+            />
+            <input
+              type="text"
+              class="form-control me-2"
+              aria-label="Search"
+              id="inpPrice"
+              placeholder="price"
+            />
+            <button
+              type="submit"
+              id="btnAdd"
+              class="btn btn-outline-success text-success"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ADD PANEL FINISH -->
+    <!-- SECTION products START -->
+    <section
+      id="sectionProducts"
+      class="container mt-5 mx-auto d-flex flex-wrap align-content-center"
+    ></section>
+    <!-- SECTION products FINISH -->
+    <!-- Edit Modal start -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <input
+              type="text"
+              class="form-control me-2"
+              id="editInpName"
+              placeholder="product name"
+              aria-label="Search"
+            />
+
+            <input
+              type="text"
+              class="form-control me-2"
+              id="editInpMemory"
+              placeholder="memory"
+              aria-label="Search"
+            />
+
+            <input
+              type="text"
+              class="form-control me-2"
+              id="editInpImage"
+              placeholder="image"
+              aria-label="Search"
+            />
+
+            <input
+              type="text"
+              class="form-control me-2"
+              id="editInpPrice"
+              placeholder="price"
+              aria-label="Search"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary btnSave"
+              id="editBtnSave"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Modal finish -->
+    <!-- ! ДЕТАЛЬНЫЙ ОБЗОР -->
+    <section class="details"></section>
+    <!-- ! -->
+
+    <!-- Pagination start -->
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a href="#" class="page-link" id="prevBtn">< back</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" id="nextBtn" href="#">next ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Pagination finish -->
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="cat">
+        <div class="categoria">
+          <h6>
+            <img
+              class="img-log"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
+              alt=""
+            />APP-STORE
+          </h6>
+          <span>Hardware store</span>
+          <span>operating mode:</span>
+          <span>09:00-18:00</span>
+        </div>
+        <div class="mapp"></div>
+        <div class="contacts">
+          <ul class="ul1">
+            <li>
+              <a class="mapp" href="https://www.google.com/maps" target="_blank"
+                >Biskek city mapp</a
+              >
+            </li>
+            <li>Cupertino, str. 100</li>
+            <li>tel: +996(111)00-00-00</li>
+            <li>e-mail: app-store@mail.ru</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer finish -->
+    <!-- Finish start -->
+    <div class="container">
+      <span>made by Nurbek</span>
+      <img
+        class="by"
+        src="https://cdn.worldvectorlogo.com/logos/progre-1.svg"
+        alt=""
+      />
+    </div>
+    <!-- Finish finish -->
+    <!-- JS-Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
