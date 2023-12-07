@@ -1,0 +1,165 @@
+{
+  "phones": [
+    {
+      "productName": "IPHONE 15",
+      "productMemory": "256 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-15-finish-select-202309-6-1inch-yellow.webp",
+      "productPrice": "900$",
+      "id": 2
+    },
+    {
+      "productName": "IPHONE 15 pro max",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/iphone-15-pro-finish-select-202309-6-7inch-bluetitanium_LfoxisT.webp",
+      "productPrice": "1950$",
+      "id": 3
+    },
+    {
+      "productName": "IPHONE 15 pro",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium_a3OkhtZ.webp",
+      "productPrice": "1820$",
+      "id": 4
+    },
+    {
+      "productName": "PHONE 15 plus",
+      "productMemory": "512 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-15-finish-select-202309-6-7inch-blue.webp",
+      "productPrice": "1230$",
+      "id": 5
+    },
+    {
+      "productName": "IPHONE 14 pro max",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/iphone-14-pro-finish-select-202209-6-7inch-deeppurple_GUDIadx.webp",
+      "productPrice": "1180$",
+      "id": 6
+    },
+    {
+      "productName": "IPHONE 14 pro",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/iphone-14-pro-storage-select-202209-6-1inch-deeppurple_VUroiNn.webp",
+      "productPrice": "1090$",
+      "id": 7
+    },
+    {
+      "productName": "IPHONE 14",
+      "productMemory": "512 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-14-finish-select-202209-6-7inch-starlight_GEiFkpY.webp",
+      "productPrice": "840$",
+      "id": 8
+    },
+    {
+      "productName": "IPHONE 14",
+      "productMemory": "128 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-14-finish-select-202209-6-1inch-starlight_DZmXhz5.webp",
+      "productPrice": "730$",
+      "id": 9
+    },
+    {
+      "productName": "IPHONE 13",
+      "productMemory": "128 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-13-midnight-select-2021.webp",
+      "productPrice": "640$",
+      "id": 10
+    },
+    {
+      "productName": "IPHONE 13 mini",
+      "productMemory": "256 gb",
+      "productImage": "https://www.istore.kg/media/products/iphone-13-mini-pink-select-2021.webp",
+      "productPrice": "690$",
+      "id": 11
+    },
+    {
+      "productName": "IPHONE 12",
+      "productMemory": "128 gb",
+      "productImage": "https://www.istore.kg/media/products/12-Black_Rfid3OW.webp",
+      "productPrice": "565$",
+      "id": 12
+    },
+    {
+      "productName": "IPHONE 11",
+      "productMemory": "64 gb",
+      "productImage": "https://www.istore.kg/media/products/11-white_6A7orer.webp",
+      "productPrice": "545$",
+      "id": 13
+    },
+    {
+      "productName": "AirPods Max",
+      "productMemory": "MGYL3",
+      "productImage": "https://www.istore.kg/media/products/AirPods-Max-Blue.webp",
+      "productPrice": "580 $",
+      "id": 15
+    },
+    {
+      "productName": "AirPods Pro (2nd generation)",
+      "productMemory": "MQD83",
+      "productImage": "https://www.istore.kg/media/products/MQD83_AV2_LZdu7LV.webp",
+      "productPrice": "225 $",
+      "id": 16
+    },
+    {
+      "productName": "AirPods (3rd generation) by Switch",
+      "productMemory": "Matte",
+      "productImage": "https://www.istore.kg/media/products/SPR-SP695429-cobalt-blue-back.webp",
+      "productPrice": "220 $",
+      "id": 17
+    },
+    {
+      "productName": "AirPods (2nd generation)",
+      "productMemory": "MV7N2",
+      "productImage": "https://www.istore.kg/media/products/AirPods-1.webp",
+      "productPrice": "125 $",
+      "id": 18
+    },
+    {
+      "productName": "MacBook Pro 16-inch M3 MAX (2023) 14CPU/30GPU, 36GB RAM, 1TB",
+      "productMemory": " 1 tb",
+      "productImage": "https://www.istore.kg/media/products/mac16pro_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_oytppQn.webp",
+      "productPrice": "4200 $",
+      "id": 19
+    },
+    {
+      "productName": "MacBook Pro 16\" (10-CPU, 32-GPU, 32GB RAM, 1TB)",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/mbp16-spacegray-gallery2-202110.webp",
+      "productPrice": "1550 $",
+      "id": 20
+    },
+    {
+      "productName": "MacBook Pro 16\" (10-CPU, 16-GPU, 16GB RAM, 512GB)",
+      "productMemory": "512 gb",
+      "productImage": "https://www.istore.kg/media/products/mbp16-spacegray-gallery2-202110_2gNOv3C.webp",
+      "productPrice": "1800 $",
+      "id": 21
+    },
+    {
+      "productName": "MacBook Pro 16\" (12-CPU, 19-GPU, 16GB RAM, 1TB)",
+      "productMemory": "1 tb",
+      "productImage": "https://www.istore.kg/media/products/mbp16-spacegray-gallery1-202301_jj5xbqV.webp",
+      "productPrice": "2620 $",
+      "id": 22
+    },
+    {
+      "productName": "Apple TV 4K (2022)",
+      "productMemory": "64 gb",
+      "productImage": "https://www.istore.kg/media/products/apple-tv-4k-2022.webp",
+      "productPrice": "150 $",
+      "id": 23
+    },
+    {
+      "productName": "Viva Madrid Ferro 13 Pro Max Case",
+      "productMemory": "color: Violet",
+      "productImage": "https://www.istore.kg/media/products/ferro-violet-case.webp",
+      "productPrice": "10 $",
+      "id": 24
+    },
+    {
+      "productName": "Viva Madrid Ferro 13 Pro Max Case",
+      "productMemory": "color: Brown",
+      "productImage": "https://www.istore.kg/media/products/MWYJ2.webp",
+      "productPrice": "35 $",
+      "id": 25
+    }
+  ]
+}
